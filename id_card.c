@@ -8,8 +8,11 @@
 #include "id_card_icons.h"
 
 #define NAME "John DOE"
-#define NUMBER "06 12 34 56 78"
-#define EMAIL "john.doe@example.com"
+#define NUMBER1 "+49 123 45678"
+#define NUMBER2 "+31 415926535"
+#define WEB "http://xkcd.com"
+#define EMAIL1 "john.doe@example.com"
+#define EMAIL2 "john.doe@web.de"
 
 #define TAG "Id Card"
 
@@ -30,28 +33,25 @@ void draw_callback(Canvas* canvas, void* context) {
 
     canvas_set_color(canvas, ColorBlack);
     canvas_set_font(canvas, FontSecondary);
-
-    canvas_draw_str_aligned(canvas, 33, 5, AlignLeft, AlignTop, NAME);
-
-    canvas_set_color(canvas, ColorBlack);
-    canvas_set_font(canvas, FontPrimary);
-
-    canvas_draw_str_aligned(canvas, 1, 20, AlignLeft, AlignTop, "N: ");
+    canvas_draw_str_aligned(canvas, 35, 5, AlignLeft, AlignTop, NAME);
 
     canvas_set_color(canvas, ColorBlack);
     canvas_set_font(canvas, FontSecondary);
 
-    canvas_draw_str_aligned(canvas, 15, 20, AlignLeft, AlignTop, NUMBER);
+    canvas_draw_str_aligned(canvas, 1, 18, AlignLeft, AlignTop, NUMBER1);
+	canvas_draw_str_aligned(canvas, 1, 26, AlignLeft, AlignTop, NUMBER2);
 
     canvas_set_color(canvas, ColorBlack);
     canvas_set_font(canvas, FontPrimary);
 
-    canvas_draw_str_aligned(canvas, 1, 35, AlignLeft, AlignTop, "EMAIL: ");
+    canvas_draw_str_aligned(canvas, 1, 37, AlignLeft, AlignTop, "Online: ");
 
     canvas_set_color(canvas, ColorBlack);
     canvas_set_font(canvas, FontSecondary);
 
-    canvas_draw_str_aligned(canvas, 5, 45, AlignLeft, AlignTop, EMAIL);
+	canvas_draw_str_aligned(canvas, 40, 37, AlignLeft, AlignTop, WEB);
+    canvas_draw_str_aligned(canvas, 5, 47, AlignLeft, AlignTop, EMAIL1);
+	canvas_draw_str_aligned(canvas, 5, 56, AlignLeft, AlignTop, EMAIL2);
 
     canvas_draw_icon(canvas, 95, 5, &I_icon_30x30);
 }
@@ -115,3 +115,4 @@ int32_t id_card_main(void* p) {
 
     return 0;
 }
+
