@@ -16,4 +16,7 @@ It is really much easier than you might expect, you just have to get started. Th
 7. Debug, if the previous step showed warnings or errors. Ggo back to step 4.
 8. Connect your Flipper Zero via USB and power it up.
 9. Launch your first app directly on the connected Flipper Zero with `ufbt launch`. This builds, uploads, and runs the app on your Flipper.
-10. **READY.** 
+10. **READY.**
+
+## Who is Mitzi?
+[Mitzi aka DRC-1958](https://cetacea.fandom.com/wiki/Mitzi_(DRC-1958)) was a female *Tursiops truncatus truncatus* who played the main character in the 1963 film "Flipper". Just another random fact for you.
