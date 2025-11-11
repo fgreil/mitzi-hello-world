@@ -2,7 +2,7 @@
 
 This project could be your first Flipper Zero app. There are many tutorials out there, the code in this repository is based on the first one:
 * [Alan Gueret's blog](https://blog.gistre.epita.fr/posts/alan.gueret-2023-09-09-create_your_first_application_on_the_flipper_zero/) explains the code base [github.com/alanretgue](https://github.com/alanretgue/Flipper_Zero-app_tutorial)
-* [Jacobie Barksdale's Youtube profile](https://www.youtube.com/@jblanked/videos) has many intersting videos on Flipper Zero apps, his code can be found at [github.com/jblanked](https://github.com/jblanked/Hello-World-Flipper-Zero)
+* [Jacobie Barksdale's Youtube profile](https://www.youtube.com/@jblanked/videos) has many interesting videos on Flipper Zero apps, his code can be found at [github.com/jblanked](https://github.com/jblanked/Hello-World-Flipper-Zero)
 * Of course, there is the [official development docu](https://developer.flipper.net/flipperzero/doxygen/).
 
 ## A simple recipe
