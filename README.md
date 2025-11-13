@@ -22,6 +22,7 @@ It is really much easier than you might expect, you just have to get started. Th
 - Overview of different libraries [github.com/jamisonderek/flipper-zero-tutorials/(https://github.com/jamisonderek/flipper-zero-tutorials/wiki/Modules)
 - [Visual guide to Flipper Zero GUI components](https://brodan.biz/blog/a-visual-guide-to-flipper-zero-gui-components/)
 - Lewis Westbury's [Tutorial on Advanced Interfaces for Flipper Zero](https://instantiator.dev/post/flipper-zero-app-tutorial-02/) from 2023-05-05.
+- https://github.com/flipperdevices/flipperzero-firmware/tree/dev/assets/icons is the offical Flipper Zero image collections, see e.g. the subfolder `Common`
 
 ## Who is Mitzi?
 [Mitzi aka DRC-1958](https://cetacea.fandom.com/wiki/Mitzi_(DRC-1958)) was a female *Tursiops truncatus truncatus* who played the main character in the 1963 film "Flipper". Just another random fact for you.
