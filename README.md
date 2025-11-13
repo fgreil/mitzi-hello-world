@@ -18,5 +18,10 @@ It is really much easier than you might expect, you just have to get started. Th
 9. Launch your first app directly on the connected Flipper Zero with `ufbt launch`. This builds, uploads, and runs the app on your Flipper.
 10. **READY.**
 
+## Helpful resources
+- Overview of different libraries [github.com/jamisonderek/flipper-zero-tutorials/(https://github.com/jamisonderek/flipper-zero-tutorials/wiki/Modules)
+- [Visual guide to Flipper Zero GUI components](https://brodan.biz/blog/a-visual-guide-to-flipper-zero-gui-components/)
+- Lewis Westbury's [Tutorial on Advanced Interfaces for Flipper Zero](https://instantiator.dev/post/flipper-zero-app-tutorial-02/) from 2023-05-05.
+
 ## Who is Mitzi?
 [Mitzi aka DRC-1958](https://cetacea.fandom.com/wiki/Mitzi_(DRC-1958)) was a female *Tursiops truncatus truncatus* who played the main character in the 1963 film "Flipper". Just another random fact for you.
